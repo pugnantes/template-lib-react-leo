@@ -1,6 +1,6 @@
 {
   "name": "@pugnantes/template-lib-react-leo",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/pugnantes"
   },
