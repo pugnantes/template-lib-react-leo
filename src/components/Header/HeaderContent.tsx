@@ -1,8 +1,8 @@
 import { forwardRef, type HTMLAttributes } from "react";
 import React from "react";
 
-import sianlogo from "../../imgs/header/logo-color.svg"
-import sianlogoText from "../../imgs/header/logo-text.svg"
+// import sianlogo from "../../imgs/header/logo-color.svg"
+// import sianlogoText from "../../imgs/header/logo-text.svg"
 
 import { classNames } from "../../utils";
 
@@ -34,7 +34,7 @@ export const HeaderContent = forwardRef<HTMLDivElement, HeaderContentProps>(func
           <div className="it-brand-wrapper">
             <a href="test">
               <div className="navbar-brand">
-                <img src={sianlogo} aria-hidden="true" />
+                {/* <img src={sianlogo} aria-hidden="true" /> */}
               </div>
               {/* <div className="it-brand-text">
                 <img src="./imgs/header/logo-text.svg" aria-hidden="true">

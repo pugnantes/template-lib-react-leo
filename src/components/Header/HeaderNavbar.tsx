@@ -4,7 +4,7 @@ import { forwardRef } from "react";
 
 import { classNames } from "../../utils";
 
-import svgs from "../../extra/bootstrap-italia-v2.3.5/svg/sprites.svg";
+// import svgs from "../../extra/bootstrap-italia-v2.3.5/svg/sprites.svg";
 
 
 
@@ -48,7 +48,7 @@ export const HeaderNavBar = forwardRef<HTMLElement, HeaderNavbarProps>(function 
         <nav className={navClasses} ref={ref}>
           <button type="button" className="custom-navbar-toggler" aria-controls="nav1" aria-expanded="false" aria-label="Mostra/Nascondi la navigazione" data-bs-target="#nav1" data-bs-toggle="navbarcollapsible">
             <svg className="icon bg-override">
-              <use href={`${svgs}#it-burger`}></use>
+              {/* <use href={`${svgs}#it-burger`}></use> */}
             </svg>
 
           </button>
@@ -60,7 +60,7 @@ export const HeaderNavBar = forwardRef<HTMLElement, HeaderNavbarProps>(function 
               <button type="button" className="btn close-menu">
                 <span className="visually-hidden">Nascondi la navigazione</span>
                 <svg className="icon">
-                <use href={`${svgs}#it-close-big`}></use>
+                {/* <use href={`${svgs}#it-close-big`}></use> */}
                 </svg>
               </button>
             </div>

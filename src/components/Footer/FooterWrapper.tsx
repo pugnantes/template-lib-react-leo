@@ -1,6 +1,6 @@
 import React, { type HTMLAttributes, type FC } from "react";
 import { classNames } from "../../utils";
-import ministeroLogo from "../../imgs/icon/ministero.svg"
+// import ministeroLogo from "../../imgs/icon/ministero.svg"
 
 export interface FooterProps extends HTMLAttributes<HTMLElement> {
   /** Aggiunge il nome dell'ente */
@@ -33,7 +33,7 @@ export const FooterWrapper: FC<FooterProps> = ({
         <div className="container container-inset">
           <div className="it-brand-wrapper">
             <a href="#">
-              <img className="img-flui" src={`${ministeroLogo}#ministero-bg`} aria-hidden="true" />
+              {/* <img className="img-flui" src={`${ministeroLogo}#ministero-bg`} aria-hidden="true" /> */}
               <div className="it-brand-text ps-3">
                 <div className="h3 text-white">
                   {titolo}
